@@ -1,9 +1,6 @@
 # Rettsdata Kandidatoppgave
 
 Programmet kjører som en tjeneste lokalt med en inmemory database (SQLite).<br>
-Du kan velge om du vil gjøre kallene fra Postman eller om du vil lage et GUI for utlisting av data.
-
-Legg inn egne testdata for å vise at oppgavene er løst.
 
 Vi benytter Servicestack til services og som ORM.<br>
 [https://docs.servicestack.net/design-rest-services](https://docs.servicestack.net/design-rest-services)<br>
@@ -22,10 +19,16 @@ Lag et endpoint for å liste ut person og tilhørende kontakter basert på perso
 
 ## Oppgave 3
 
+Lag et endpoint for å legge til nye data.
+
+## Oppgave 4
+
+Bruk ELM til å lage et GUI for å presentere data som hentes ut.
+
+## Teori
+
 Det er ikke nødvendig å implementere kode for denne oppgaven, men tenk gjennom følgende : 
 
-- Hvordan ville du løst å legge til data?
 - Hvordan kunne tabellene vært opprettet/dataene hentet ut på en alternativ måte?
 - Videre forbedring av koden?
-- Feilhåndtering
 - Beskrivelse av commit(s)
